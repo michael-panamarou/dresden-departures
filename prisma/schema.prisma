@@ -1,0 +1,26 @@
+// Database schema. Prisma turns this into TypeScript types and SQL tables.
+// Docs: https://www.prisma.io/docs/orm/prisma-schema
+
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+/// A stop that a signed-in user saved as a favourite.
+model Favorite {
+  id        String   @id @default(cuid())
+  /// The user's GitHub account ID, taken from the Auth.js session.
+  userId    String
+  /// VVO stop ID, e.g. "33000028".
+  stopId    String
+  /// Stop name at the time it was saved, so the list renders without asking VVO.
+  stopName  String
+  createdAt DateTime @default(now())
+
+  /// A user can save each stop only once.
+  @@unique([userId, stopId])
+}
