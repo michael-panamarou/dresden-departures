@@ -223,4 +223,4 @@ This is a personal learning project and is **not affiliated with** the Verkehrsv
 
 ## Author
 
-**Your Name** · [GitHub](https://github.com/YOUR-USERNAME) · [LinkedIn](https://www.linkedin.com/in/YOUR-PROFILE)
+**Mikhail Panamarou** · [GitHub](https://github.com/michael-panamarou) · [LinkedIn](https://www.linkedin.com/in/mikhail-panamarou-0b082a164)
