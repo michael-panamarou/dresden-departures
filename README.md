@@ -2,12 +2,12 @@
 
 **A live departure board for Dresden's trams and buses: search a stop and see when the next ones leave.**
 
-[![CI](https://github.com/michaeil-panamarou/dresden-departures/actions/workflows/ci.yml/badge.svg)](https://github.com/michael-panamarou/dresden-departures/actions/workflows/ci.yml)
+[![CI](https://github.com/michael-panamarou/dresden-departures/actions/workflows/ci.yml/badge.svg)](https://github.com/michael-panamarou/dresden-departures/actions/workflows/ci.yml)
 ![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178C6?logo=typescript&logoColor=white)
 ![Tests](https://img.shields.io/badge/tests-67_unit_·_16_end--to--end-0a7d4e)
 
-🔗 **Live demo:** https://YOUR-PROJECT.vercel.app
+🔗 **Live demo:** https://dresden-departures.vercel.app
 
 | Departure board | Search on a phone (dark mode) | Board on a phone |
 |---|---|---|
