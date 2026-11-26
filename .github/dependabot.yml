@@ -1,0 +1,16 @@
+# Dependabot opens pull requests when dependencies or GitHub Actions have updates,
+# including security fixes. CI then checks that the update doesn't break anything.
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+    groups:
+      # One pull request for all small updates, instead of one per package.
+      minor-and-patch:
+        update-types: [minor, patch]
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
